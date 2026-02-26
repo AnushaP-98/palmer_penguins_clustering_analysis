@@ -23,6 +23,14 @@ Although k=2 yielded the highest silhouette score, k=3 was selected to align wit
 - Cluster vs Species Crosstab
 - PCA Visualization
 
+## Cluster Visualization
+
+![Clusters after PCA](pca_cluster_visualization.png)
+
+## Elbow Method
+
+![Elbow Method](elbow_method.png)
+
 ## Model Evaluation
 
 - Silhouette Score (k=3): 0.48  (example – use your real value)
@@ -31,3 +39,16 @@ Although k=2 yielded the highest silhouette score, k=3 was selected to align wit
 - Adjusted Rand Index (if calculated): 0.72
 
 The engineered feature improved cluster separation, demonstrating meaningful contribution to model performance.
+
+## Why This Matters
+
+Unsupervised learning can approximate biological classification without prior labels. This demonstrates how clustering can reveal natural structure in data and validate domain knowledge.
+
+## Skills Demonstrated
+
+- Feature Engineering
+- Unsupervised Learning
+- Model Validation
+- Dimensionality Reduction
+- Data Visualization
+- Analytical Reasoning
